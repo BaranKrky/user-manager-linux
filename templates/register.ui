@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RegisterWindow</class>
+ <widget class="QMainWindow" name="RegisterWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>509</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>70</y>
+      <width>381</width>
+      <height>317</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="register_layout">
+     <item row="6" column="0">
+      <widget class="QLabel" name="username_lbl">
+       <property name="text">
+        <string>*Username :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="password_lbl">
+       <property name="text">
+        <string>*Password :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="username_txt"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="password_txt"/>
+     </item>
+     <item row="9" column="1">
+      <widget class="QCommandLinkButton" name="registerbtn">
+       <property name="text">
+        <string>Register</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="passagain_txt"/>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="passagain_lbl">
+       <property name="text">
+        <string>*Password Again :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="name_lbl">
+       <property name="text">
+        <string>*Name :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="surname_lbl">
+       <property name="text">
+        <string>*Surname :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="name_txt"/>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="surname_txt"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="birthdate_lbl">
+       <property name="text">
+        <string>*Birthdate :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QDateEdit" name="birthdate_date">
+       <property name="specialValueText">
+        <string>Day.Month.Year</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="phone_number_lbl">
+       <property name="text">
+        <string>Phone Number :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="phonenumber_txt">
+       <property name="placeholderText">
+        <string>05XXXXXXXXX</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="gender_lbl">
+       <property name="text">
+        <string>*Gender :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="gender_cbox">
+       <property name="currentText">
+        <string>&lt;Select Gender&gt;</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>&lt;Select Gender&gt;</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Male</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Female</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>I prefer don't to specify</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="email_lbl">
+       <property name="text">
+        <string>*Email :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="email_txt">
+       <property name="placeholderText">
+        <string>example@example.com</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="win_label">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>10</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Register</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>390</y>
+      <width>77</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>* : required</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -46,6 +46,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* For Windows OS, coming soon...
+* For Windows OS, [click here](https://github.com/BaranKrky/user-manager-windows)
 
 
